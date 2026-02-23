@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#42b983" opacity="0.2"/>
+  
+  <!-- Binary (1010) -->
+  <text x="20" y="30" font-family="monospace" font-size="14" fill="#42b983" font-weight="bold">1010</text>
+  
+  <!-- Decimal (10) -->
+  <text x="40" y="50" font-family="monospace" font-size="16" fill="#42b983" font-weight="bold">10</text>
+  
+  <!-- Hex (A) -->
+  <text x="70" y="30" font-family="monospace" font-size="16" fill="#42b983" font-weight="bold">A</text>
+  
+  <!-- Octal (12) -->
+  <text x="70" y="70" font-family="monospace" font-size="14" fill="#42b983" font-weight="bold">12</text>
+  
+  <!-- Conversion arrows -->
+  <path d="M 30 25 L 35 30 M 35 30 L 30 35" stroke="#42b983" stroke-width="2" fill="none"/>
+  <path d="M 55 25 L 60 30 M 60 30 L 55 35" stroke="#42b983" stroke-width="2" fill="none"/>
+  <path d="M 60 45 L 65 50 M 65 50 L 60 55" stroke="#42b983" stroke-width="2" fill="none"/>
+  <path d="M 55 65 L 60 60 M 60 60 L 55 55" stroke="#42b983" stroke-width="2" fill="none"/>
+  
+  <!-- Center conversion symbol -->
+  <circle cx="50" cy="50" r="8" fill="#42b983"/>
+  <text x="50" y="55" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">⇄</text>
+</svg>
